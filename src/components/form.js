@@ -33,7 +33,7 @@ const FormSlider = () => {
       {isOpen && (
         <div
           ref={formRef}
-          className={`form-slider fixed bottom-0 right-0 shadow-md rounded-lg mx-auto mb-10 p-5 transition-all duration-500 ease-in-out bg-slate-500 ${
+          className={`form-slider fixed bottom-0 right-0 shadow-md rounded-lg mx-auto mb-2 mr-2 p-5 transition-all duration-500 ease-in-out bg-slate-200 ${
             isOpen ? "block" : "hidden"
           }`}
           style={{ transform: "translateY(100%);" }} // Initial off-screen position
@@ -51,7 +51,7 @@ const FormSlider = () => {
             <div className="mb-4">
               <label
                 htmlFor="phoneNumber"
-                className="block text-gray-300 mb-2 text-lg"
+                className="block text-gray-800 mb-2 text-lg"
               >
                 Phone Number
               </label>
@@ -68,7 +68,7 @@ const FormSlider = () => {
             <div>
               <label
                 htmlFor="emailAddress"
-                className="block text-gray-300 mb-2 text-lg"
+                className="block text-gray-800 mb-2 text-lg"
               >
                 Email Address
               </label>
